@@ -16,7 +16,7 @@ const Items = () => {
   const [isContactOpen, setIsContactOpen] = useState(false);
   return (
     <>
-      <div className="absolute top-[50%] left-[20px] px-4 py-4 transform translate-y-[-50%] rounded-full bg-white/20 backdrop-blur-md">
+      <div className=" absolute top-[50%] left-[20px] px-4 py-4 transform translate-y-[-50%] rounded-full bg-white/20 backdrop-blur-md">
         <div className="flex flex-col items-center gap-6">
           {items.map((item) => (
             <motion.div
