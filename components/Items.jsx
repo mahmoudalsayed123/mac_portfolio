@@ -41,6 +41,7 @@ const Items = () => {
                   } else if (item.name === "Skills") {
                     setIsSkillsOpen(true);
                     setIsFinderModalOpen(false);
+                    setIsContactOpen(false);
                     setIsArticlesOpen(false);
                     setIsGalleryOpen(false);
                   } else if (item.name === "Contact") {
